@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Goods_Expiry_Date_Tracker</string>
+    <string name="fakeDate">12/10/2021</string>
+    <string name="drink">Drink</string>
+    <string name="helper_activity">HelperActivity</string>
+    <string name="scan_qr_code">SCAN QR CODE</string>
+    <string name="name">Name</string>
+    <string name="empty">---</string>
+    <string name="scan_a_code">Scan a QR Code</string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="type_name">Type</string>
+    <string name="date">Date</string>
+    <string name="id">ID</string>
+    <string name="save">Save</string>
+    <string name="expired">2 days</string>
+    <string name="check_expired">Check Expired</string>
+    <string name="expired_item">Expired</string>
+</resources>

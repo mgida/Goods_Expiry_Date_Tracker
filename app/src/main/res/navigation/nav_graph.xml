@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.goods_expiry_date_tracker.ui.fragment.MainFragment"
+        android:label="Goods Tracker"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_scannerFragment"
+            app:destination="@id/scannerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_expiredItemsFragment"
+            app:destination="@id/expiredItemsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/expiredItemsFragment"
+        android:name="com.example.goods_expiry_date_tracker.ui.fragment.ExpiredItemsFragment"
+        android:label="Expired Goods"
+        tools:layout="@layout/fragment_expired_items" />
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.example.goods_expiry_date_tracker.ui.fragment.ScannerFragment"
+        android:label="Scan Item"
+        tools:layout="@layout/fragment_scanner" >
+
+    </fragment>
+</navigation>
