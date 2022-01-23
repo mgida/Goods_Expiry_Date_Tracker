@@ -18,8 +18,7 @@
 * RecyclerView
 
 ## Note:
-# Here I'm using [Qr Code_generator](https://goqr.me/) to generate fake objects that will be scanned later .. each object must have id, item_name, item_type, item_date
-# then item is scanned by Zxing library
+## Here I'm using [Qr Code_generator](https://goqr.me/) to generate fake objects that will be scanned later .. each object must have id, item_name, item_type, item_date in a json format then item is scanned by Zxing library
 
 
 ## Screens:
